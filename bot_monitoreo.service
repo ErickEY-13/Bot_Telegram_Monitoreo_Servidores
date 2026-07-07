@@ -1,0 +1,19 @@
+[Unit]
+Description=Bot Telegram Monitoreo Servidores
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/bot_monitoreo
+ExecStart=/opt/bot_monitoreo/venv/bin/python3 /opt/bot_monitoreo/bot.py
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+# Reintentar si falla al iniciar
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
