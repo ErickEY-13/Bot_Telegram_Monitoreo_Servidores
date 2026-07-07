@@ -1,5 +1,16 @@
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&size=38&duration=2500&pause=2000&color=00D26A&center=true&width=750&height=55&lines=NOC+BOT+%F0%9F%A4%96;Monitoreo+de+Servidores+en+Tiempo+Real;Bot+de+Telegram+con+Alertas+Inteligentes" alt="Typing SVG" /></a>
+  <a href="#" target="_blank">
+    <img src="assets/banner_monitoreo.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="Monitoreo de Servidores" />
+  </a>
+  <a href="#" target="_blank">
+    <img src="assets/banner_alertas.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="Alertas Inteligentes" />
+  </a>
+  <a href="#" target="_blank">
+    <img src="assets/banner_graficos.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="Gráficos y Reportes" />
+  </a>
+  <br />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&size=38&duration=2500&pause=2000&color=00D26A&center=true&width=750&height=55&lines=NOC+BOT+%F0%9F%A4%96;Monitoreo+de+Servidores+en+Tiempo+Real;Bot+de+Telegram+con+Alertas+Inteligentes;Administraci%C3%B3n+Remota+v%C3%ADa+SSH" alt="Typing SVG" /></a>
 </div>
 
 <div align="center">
@@ -20,6 +31,10 @@
 </div>
 
 <br />
+
+<div align="center">
+  <img src="assets/demo_bot.png" style="width: 100%; max-width: 950px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);" alt="Demo del Bot de Monitoreo" />
+</div>
 
 ---
 
@@ -74,6 +89,31 @@ Sistema de permisos por Chat ID. Solo administradores autorizados pueden ejecuta
 
 ### 💾 Backups por Telegram
 Genera y descarga backups de MySQL y archivos web directamente como archivos adjuntos en el chat.
+
+---
+
+## 📸 Capturas de Pantalla
+
+<div align="center">
+<table>
+  <tr>
+    <td><b>🏠 Menú Principal</b></td>
+    <td><b>📊 Status General</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshot_menu.png" width="350"/></td>
+    <td><img src="assets/screenshot_status.png" width="350"/></td>
+  </tr>
+  <tr>
+    <td><b>🔴 Alerta de Caída</b></td>
+    <td><b>📈 Gráficos</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshot_alerta.png" width="350"/></td>
+    <td><img src="assets/screenshot_graficos.png" width="350"/></td>
+  </tr>
+</table>
+</div>
 
 ---
 
@@ -155,6 +195,7 @@ Genera y descarga backups de MySQL y archivos web directamente como archivos adj
 | `ver cpu` | Uso de CPU de ambas MVs |
 | `ver usuario` | Usuarios conectados en ambas MVs |
 | `estado servicio apache2` | Estado de apache2 en ambas MVs |
+| `estado servicio mysql` | Estado de mysql en ambas MVs |
 | `estado servicio ftp` | Estado de FTP (alias → vsftpd) |
 
 ### 🔔 Alertas Automáticas
@@ -241,7 +282,7 @@ sudo systemctl enable bot_monitoreo
 sudo systemctl start bot_monitoreo
 ```
 
-### Comandos útiles
+### Comandos útiles del servidor
 ```bash
 systemctl status bot_monitoreo      # Ver estado
 journalctl -u bot_monitoreo -f      # Logs en tiempo real
@@ -257,6 +298,12 @@ systemctl stop bot_monitoreo        # Detener
 
 ```
 Bot_Telegram_Monitoreo_Servidores/
+├── assets/                 # Imágenes y recursos del README
+├── docs/                   # Documentación adicional
+│   ├── GUIA_INICIO.md      # Guía de inicio rápido
+│   ├── MANUAL_MV2.md       # Manual de configuración de MV2
+│   ├── MANUAL_USUARIOS.md  # Manual de gestión de usuarios
+│   └── FUNCIONALIDAD.md    # Guía completa de funcionalidades
 ├── bot.py                  # Lógica principal del bot (handlers y monitoreo)
 ├── config.py               # Configuración centralizada (tokens, servidores)
 ├── ssh_manager.py          # Gestión de conexiones SSH con Paramiko
@@ -265,27 +312,26 @@ Bot_Telegram_Monitoreo_Servidores/
 ├── requirements.txt        # Dependencias de Python
 ├── .env.example            # Plantilla de variables de entorno
 ├── bot_monitoreo.service   # Archivo de servicio systemd
-├── deploy.sh               # Script de despliegue automatizado
-└── docs/                   # Documentación adicional
-    ├── GUIA_INICIO.md      # Guía de inicio rápido
-    ├── MANUAL_MV2.md       # Manual de configuración de MV2
-    └── MANUAL_USUARIOS.md  # Manual de gestión de usuarios
+└── deploy.sh               # Script de despliegue automatizado
 ```
 
 ---
 
-## 👥 Autores
+## 👤 Autor
 
-| Nombre | Rol |
-|---|---|
-| **Erick Ayma** | Desarrollador Principal |
-| **Poma** | Colaborador — Configuración MV2 |
+<div align="center">
+  <img src="https://img.shields.io/badge/Desarrollado_por-ERICK_YOEL_AYMA_CHOQUE-00D26A?style=for-the-badge&labelColor=1a1a2e" />
+  <br /><br />
+  <a href="https://github.com/ErickEY-13">
+    <img src="https://img.shields.io/badge/GitHub-ErickEY--13-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto fue desarrollado como proyecto académico.
+Este proyecto fue desarrollado como proyecto académico universitario.
 
 <div align="center">
   <br />
@@ -293,5 +339,15 @@ Este proyecto fue desarrollado como proyecto académico.
   <img src="https://img.shields.io/badge/Bot-24/7_Online-26A5E4?style=for-the-badge&logo=telegram" />
   <br />
   <br />
-  <sub>Hecho con ❤️ y Python 🐍</sub>
+
+  ```
+  ╔══════════════════════════════════════════════════════╗
+  ║                                                      ║
+  ║         Erick Yoel Ayma Choque  ✦  2026             ║
+  ║         NOC Bot — Monitoreo de Servidores            ║
+  ║                                                      ║
+  ╚══════════════════════════════════════════════════════╝
+  ```
+
+  <sub>Hecho con ❤️ y Python 🐍 por <b>Erick Yoel Ayma Choque</b></sub>
 </div>
