@@ -1,0 +1,9 @@
+# Dependencias del bot de Telegram para monitoreo de servicios
+# python-telegram-bot v20+ con soporte para JobQueue
+python-telegram-bot[job-queue]==20.7
+
+# Paramiko para conexiones SSH remotas
+paramiko==3.4.0
+
+# python-dotenv para cargar variables de entorno desde archivo .env
+python-dotenv==1.0.1

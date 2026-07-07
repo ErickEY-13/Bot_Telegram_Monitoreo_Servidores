@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+env/
+
+# Variables de entorno con credenciales reales
+.env
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Base de datos local
+historial.db
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
