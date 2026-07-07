@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="#" target="_blank">
-    <img src="assets/banner_monitoreo.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="Monitoreo de Servidores" />
+  <a href="https://github.com/DIMFLIX-EDUCATION" target="_blank">
+    <img src="assets/education.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="DIMFLIX Education" />
   </a>
   <a href="#" target="_blank">
-    <img src="assets/banner_alertas.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="Alertas Inteligentes" />
+    <img src="assets/designs.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="DIMFLIX Designs" />
   </a>
   <a href="#" target="_blank">
-    <img src="assets/banner_graficos.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="Gráficos y Reportes" />
+    <img src="assets/hackathons.png" width="250" height="135" style="border-radius: 16px; box-shadow: 0 6px 25px rgba(0,0,0,0.25); margin: 0 10px;" alt="DIMFLIX Hackathons" />
   </a>
   <br />
   <br />
@@ -343,11 +343,11 @@ Este proyecto fue desarrollado como proyecto académico universitario.
   ```
   ╔══════════════════════════════════════════════════════╗
   ║                                                      ║
-  ║         Erick Yoel Ayma Choque  ✦  2026             ║
+  ║       ERICK YOEL AYMA CHOQUE  ✦  2026                ║
   ║         NOC Bot — Monitoreo de Servidores            ║
   ║                                                      ║
   ╚══════════════════════════════════════════════════════╝
   ```
 
-  <sub>Hecho con ❤️ y Python 🐍 por <b>Erick Yoel Ayma Choque</b></sub>
+  <sub>Hecho con ❤️ y Python 🐍 por <b>ERICK YOEL AYMA CHOQUE</b></sub>
 </div>
