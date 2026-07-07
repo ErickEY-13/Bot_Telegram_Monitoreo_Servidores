@@ -1,6 +1,11 @@
-# Entorno virtual
+# =============================================
+# .gitignore - Bot Telegram Monitoreo Servidores
+# =============================================
+
+# Entorno virtual Python
 venv/
 env/
+.venv/
 
 # Variables de entorno con credenciales reales
 .env
@@ -13,11 +18,27 @@ __pycache__/
 
 # Base de datos local
 historial.db
+*.db
 
-# Archivos del sistema
+# Scripts de despliegue con credenciales
+remote_deploy.py
+fix_deploy.py
+
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# IDE
+# Editores e IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak

@@ -7,3 +7,6 @@ paramiko==3.4.0
 
 # python-dotenv para cargar variables de entorno desde archivo .env
 python-dotenv==1.0.1
+
+# Matplotlib para generación de gráficos de monitoreo
+matplotlib>=3.7.0
